@@ -262,6 +262,9 @@ class ProfileDetails extends PolymerElement {
             flex-direction: column;
             
           }
+          .user-mailid{
+            padding:4px 32px 32px 0;
+          }
         }
         @media screen and (max-width: 669px) and (min-width: 500px){
           .flex1{
