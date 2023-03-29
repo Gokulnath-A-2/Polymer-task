@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "name": "Prayag Jaikar",
+    "phone-no": "+91 8394037485",
+    "e-mail": "prayagjaikar@gmail.com",
+    "account-no": "173947583947",
+    "pan-no": "BBXXXXXX4N",
+    "address": "21, Galaxy aprtment, South circle park, M G road, Mumbai, Maharashtra-400036",
+    "permanent-address": "21, Galaxy aprtment, South circle park, M G road, Mumbai, Maharashtra-400036"
+  },
+  "header": [
+    {
+      "image": "mastercard",
+      "heading": "Received from",
+      "time": "Just now",
+      "content": "You have received ₹ 59,200.00 from Rajkumar Shetty",
+      "remainder": ""
+    },
+    {
+      "image": "visa",
+      "heading": "Adani electricity",
+      "time": "Today, 10:30 AM",
+      "content": "You have been paid ₹ 1,200.00 to Adani electricity"
+    },
+    {
+        "image": "mastercard",
+        "heading": "Paid to",
+        "time": "Yesterday, 12:44 PM",
+        "content": "You have been paid ₹ 31,265.00 to Anuj Roy"
+      },
+      {
+        "image": "visa",
+        "heading": "Credit card",
+        "time": "Yesterday, 12:44 PM",
+        "content": "You have to pay credit card bill of ₹ 11,200.00",
+        "remainder": "Set remainder",
+        "button": "Pay"
+      },
+      {
+        "image": "mastercard",
+        "heading": "Cheque book application",
+        "time": "9 may 2021, 6:02 PM",
+        "content": "Cheque leaves exhausting - 2 leaves left",
+        "button": "Apply for new check book"
+      }
+  ]
+}
