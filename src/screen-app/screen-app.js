@@ -330,7 +330,7 @@ class ScreenApp extends PolymerElement {
             width:100%;
           }
           .bg{
-            width:85%;
+            width:calc(100% - 104px);
             height:1340px;
           }
           .content{
