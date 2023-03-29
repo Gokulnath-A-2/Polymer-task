@@ -260,25 +260,27 @@ class ScreenApp extends PolymerElement {
             width:100%;
           }
           .bg{
-            width:84%;
+            width:calc(100% - 104px);
             height:1100px;
           }
           .content{
             width:90%;
-            height:940px;
+            height:900px;
             display:flex;
             flex-direction:column;
             box-shadow:none;
-            justify-content:space-evenly;
+            justify-content:space-between;
             margin:0 auto;
           }
           profile-details{
           width:100%;
           border-radius:20px;
+          box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
         profile-actions{
           width:100%;
           border-radius:20px;
+           box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
         
         .sidebar{
@@ -294,26 +296,28 @@ class ScreenApp extends PolymerElement {
             width:100%;
           }
           .bg{
-            width:90%;
+            width:calc(100% - 104px);
             height:1100px;
           }
           .content{
             width:90%;
-            height:940px;
+            height:900px;
             display:flex;
             flex-direction:column;
             box-shadow:none;
-            justify-content:space-evenly;
+            justify-content:space-between;
             margin:0 auto;
           }
           profile-details{
           width:100%;
           border-radius:20px;
+          box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
         profile-actions{
           margin:20px 0;
           width:100%;
           border-radius:20px;
+          box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
       
         }
@@ -341,11 +345,13 @@ class ScreenApp extends PolymerElement {
           profile-details{
           width:100%;
           border-radius:20px;
+          box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
         profile-actions{
           margin:20px 0;
           width:100%;
           border-radius:20px;
+          box-shadow: 0 4px 14px 1px rgb(0 0 0 / 5%);
         }
       }
         </style>

@@ -226,15 +226,27 @@ class ProfileDetails extends PolymerElement {
         }
         @media screen and (max-width: 999px) and (min-width: 768px) {
           .flex {
-            width: 86%;
+            margin:0;
+            padding:24px 40px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            border-radius: 16px;
+            border-radius: 16px;           
+          }
+          .flex1{
+            align-items:center;
+          }
+          .user-mailid{
+            padding:4px 32px 32px 32px;
           }
           .flex2 {
+            padding:8px 0;
             display: flex;
             flex-direction: column;
+            align-items:center;
+          }
+          .cont-item2{
+            padding-top:20px;
           }
         }
         @media screen and (max-width: 767px) and (min-width: 670px) {
@@ -248,16 +260,19 @@ class ProfileDetails extends PolymerElement {
           .flex2 {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            
           }
         }
         @media screen and (max-width: 669px) and (min-width: 500px){
           .flex1{
+            width:100%;
             border-right:none;
             align-items: center;
+            border-bottom: 1px solid rgba(19, 27, 116, 0.1);
           }
           .user-mailid{
             padding:0;
+            margin-bottom:32px;
           }
           .flex{
             border-radius:16px;
@@ -267,10 +282,20 @@ class ProfileDetails extends PolymerElement {
             border-right:none;
           }
           .flex2 {
+            padding:0;
             width:100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
+          }
+          .cont-item1{
+            padding-left:0px;
+          }
+          .cont-item2{
+            padding-left:0px;
+          }
+          .bld-fnt2{
+            width:300px;
           }
         }
       </style>

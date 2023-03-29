@@ -125,8 +125,8 @@ class ProfileActions extends PolymerElement {
         }
         @media screen and (max-width: 999px) and (min-width: 500px) {
           .act-container {
-            margin: 10px auto;
-            width: 95%;
+            margin:8px 8px;
+            width:auto;
             border-radius: 16px;
             padding: 8px;
           }
